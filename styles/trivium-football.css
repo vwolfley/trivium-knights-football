@@ -17,6 +17,13 @@ body {
   margin-top: 80px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+}
+p, li, td{
+  font-family: var(--paragraph-font);
+}
+
 header {
   margin-bottom: 2em;
   background-color: var(--primary-color);
@@ -53,16 +60,10 @@ header li a {
   color: var(--primary-color);
 }
 
-
-.knight {
-  height: 300px;
-}
-
 .roster-table {
   border-collapse: collapse;
   margin: 25px 0;
   font-size: 0.9em;
-  font-family: sans-serif;
   min-width: 400px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -70,12 +71,13 @@ header li a {
 .roster-table thead tr {
   background-color: var(--primary-color);
   color: var(--accent2-color);
-  text-align: left;
+  text-align: center;
 }
 
 .roster-table th,
 .roster-table td {
     padding: 12px 15px;
+    text-align: center;
 }
 
 .roster-table tbody tr {
